@@ -1,4 +1,4 @@
-FROM opencv:xenial
+FROM hosseinagha/opencv:latest
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
     apt-get update && \
